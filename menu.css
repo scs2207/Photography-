@@ -1,0 +1,58 @@
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+/* remove bullets, remove default space */ 
+.menu {
+	list-style-type: none;
+	padding: 0;
+	margin: 10px;
+}
+
+/* make the list items look more like buttons */
+.menu li {
+	border: 1px solid black;
+	width: 100px;
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+	background-color: white;
+}
+/* style the the visited links */
+.menu a{
+	text-decoration: none;
+	color: black;
+
+	display: block;
+	width: 100%;
+}
+
+/* make a hover effect... */
+/*pseudo class, an option*/
+.menu a:hover {
+background-color: lightgrey;
+color: green;
+}
+
+.info h1{
+	font-size: 100px;
+	text-align: center;
+
+}
+.info {
+	font-size: 30px
+}
+.logo {
+	background-image: url('IMG_5382.jpg');
+	width: 400px;
+height: 325px;
+background-position: center;
+background-size: contain;
+border-style: solid;
+border-width: 20px;
+margin-left: 400px
+}
+.photo {
+	border-style: solid white; 
+}
